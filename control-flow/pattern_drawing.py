@@ -1,4 +1,7 @@
-dic = {"anuel" : "G", "cr7" : "G2"}
-
-for i in dic.items():
-    print(f"key {i}")
+size = int(input("Enter the size of the pattern: "))
+row = 0
+while row < size:
+    for _ in range(size):
+        print("*", end="")
+    print()
+    row += 1
